@@ -1,0 +1,23 @@
+# https://github.com/vookimedlo/antlr-swift-framework/
+
+language: swift
+xcode_project: Antlr4.xcodeproj
+xcode_destination: platform=macOS
+
+os: osx
+osx_image: xcode11
+
+sudo: false
+
+compiler:
+  - clang
+
+before_script:
+  - 'uname -a'
+
+script:
+  - 'cd Swift'
+  - 'xcodebuild -target Antlr4'
+
+after_script:
+  - 'echo "Done."'
