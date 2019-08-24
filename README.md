@@ -5,7 +5,7 @@
 [![Build Status](https://travis-ci.org/vookimedlo/antlr-swift-framework.svg?branch=master)](https://travis-ci.org/vookimedlo/antlr-swift-framework)
 
 
-This repository provides ANTLR swift runtime based. All are generated from the official ANTLR releases.
+This repository provides ANTLR swift runtime. All are generated from the official ANTLR releases.
 
 The intention is to keep this independent code separated from the project that requires it and then to use it as a git submodule.
 
