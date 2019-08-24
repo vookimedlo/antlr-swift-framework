@@ -18,7 +18,7 @@ before_script:
 script:
   - 'cd Swift'
   - 'xcodebuild -target Antlr4'
-  - 'xcodebuild test'
+  - 'xcodebuild -scheme Antlr4PackageTests test'
 
 after_script:
   - 'echo "Done."'
