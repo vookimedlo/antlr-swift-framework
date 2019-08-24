@@ -18,6 +18,7 @@ before_script:
 script:
   - 'cd Swift'
   - 'xcodebuild -target Antlr4'
+  - 'xcodebuild test'
 
 after_script:
   - 'echo "Done."'
