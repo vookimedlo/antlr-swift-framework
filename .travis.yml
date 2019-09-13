@@ -16,7 +16,6 @@ before_script:
   - 'uname -a'
 
 script:
-  - 'cd Swift'
   - 'xcodebuild -target Antlr4'
   - 'xcodebuild -scheme Antlr4-Package test'
 
