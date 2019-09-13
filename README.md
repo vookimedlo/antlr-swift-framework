@@ -7,7 +7,7 @@
 
 This repository provides ANTLR swift runtime. All are generated from the official ANTLR releases.
 
-The intention is to keep this independent code separated from the project that requires it and then to use it as a git submodule.
+The intention is to keep this independent code separated from the project that requires it and then to use it as a git submodule or include it as a Swift Package.
 
 ------------
 
